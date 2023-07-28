@@ -270,6 +270,5 @@ Feel free to contribute to this repository by submitting pull requests. Your fee
 
 Thank you for visiting this repository and exploring the different Machine Learning models. Happy learning!
 
-[Arya Chakraborty]
-[linkedin.com/in/arya-chakraborty2002]
-[aryachakraborty.official@gmail.com]
+Author: <span style="color:blue">**Arya Chakraborty**</span>
+Contact me here :<span style="color:blue">**aryachakraborty.official@gmail.com**</span>
