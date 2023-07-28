@@ -2,7 +2,7 @@
 
 Welcome to my Machine Learning Models repository! This repository contains the implementation code and documentation for various Machine Learning models and techniques that I have developed during my learning journey at VIT AP 
 
-![Landing Page]([https://github.com/Arya920/Career-Guidnce-AI-bot/blob/main/Chatbot.jpg](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/ML.jpg))
+![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/ML.jpg)
 ## Overview
 
 In this repository, you'll find a collection of 10 different Machine Learning models. Each model is implemented in Python and comes with detailed documentation to help you understand the underlying concepts and methodologies.
