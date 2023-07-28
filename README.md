@@ -10,7 +10,8 @@ In this repository, you'll find a collection of 10 different Machine Learning mo
 
 ## Pull Requests
 
-Number of Pull Requests: 0 (as of [current_date])
+[![Pull Requests](https://img.shields.io/github/issues-pr/Arya920/Different-ML-Models)](https://github.com/Arya920/Different-ML-Models/pulls)
+
 
 ## List of Models
 
