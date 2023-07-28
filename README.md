@@ -20,13 +20,12 @@ Here is a list of the Machine Learning models and their respective file names av
 2. Candidate Elimination Method
 3. Decision Tree Classifier on Titanic DataSet
 4. Simple & Multiple Linear Regression
-5. K-Nearest Neighbors (KNN)
-6. Support Vector Machine
-7. S.V.M Multi Class Classifier
-8. Logistic Regression
-9. Naive Bayes Classification
-10. Forward Propagation Neural Network
-11. Random Forest  Vs Decision Tree 
+5. Support Vector Machine
+6. S.V.M Multi Class Classifier
+7. Logistic Regression
+8. Naive Bayes Classification
+9. Forward Propagation Neural Network
+10. Random Forest  Vs Decision Tree 
 
 ## Model Descriptions
 
@@ -59,37 +58,140 @@ The Candidate Elimination algorithm is a supervised learning method used for con
 ![Support Vector Machines](insert_image_url_here)
 
 ### 4. Simple & Multiple Linear Regression
+![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/LR.png)
+## Simple Linear Regression
+
+### Overview
+
+Simple Linear Regression establishes a linear relationship between a single independent variable (X) and a dependent variable (y). It assumes that the relationship between the variables can be represented by a straight line equation: y = mx + b.
+
+### Usage
+
+1. Data Preparation: Prepare the dataset with the independent variable (X) and the dependent variable (y).
+
+2. Split Data: Divide the dataset into training and testing sets.
+
+3. Model Training: Fit the linear regression model to the training data.
+
+4. Model Evaluation: Evaluate the model's performance using metrics like Mean Squared Error (MSE) or R-squared (R²).
+
+5. Predictions: Use the trained model to make predictions on new data.
+
+## Multiple Linear Regression
+
+### Overview
+
+Multiple Linear Regression is an extension of Simple Linear Regression that deals with multiple independent variables (X₁, X₂, ..., Xₚ) to predict a dependent variable (y). The relationship between the variables is represented by a linear equation: y = b₀ + b₁X₁ + b₂X₂ + ... + bₚXₚ, where p is the number of independent variables.
+
+### Usage
+
+1. Data Preparation: Prepare the dataset with multiple independent variables (X) and the dependent variable (y).
+
+2. Split Data: Divide the dataset into training and testing sets.
+
+3. Model Training: Fit the multiple linear regression model to the training data.
+
+4. Model Evaluation: Evaluate the model's performance using metrics like Mean Squared Error (MSE) or R-squared (R²).
+
+5. Predictions: Use the trained model to make predictions on new data.
+
+
+
+### 5. Support Vector Machine
+![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/SVM.png)
+SVM is a binary classification algorithm that works by finding the hyperplane that maximizes the margin between two classes. The hyperplane serves as a decision boundary that separates the data points belonging to different classes.
+
+### Usage
+
+1. Data Preparation: Prepare the dataset with the feature matrix (X) and the target vector (y).
+
+2. Split Data: Divide the dataset into training and testing sets.
+
+3. Model Training: Fit the SVM model to the training data.
+
+4. Model Evaluation: Evaluate the model's performance using metrics like accuracy, precision, recall, and F1-score.
+
+5. Predictions: Use the trained model to make predictions on new data.
+
+## Kernel Trick
+
+SVM can efficiently handle non-linearly separable data by applying the kernel trick. Common kernels used are the Radial Basis Function (RBF) kernel, polynomial kernel, and sigmoid kernel.
+
+
+### 6. S.V.M Multi Class Classifier
+
+## Overview
+
+SVM as a multi-class classifier extends the binary SVM to handle multiple classes in a one-vs-rest or one-vs-one approach. It works by training multiple binary classifiers, where each classifier distinguishes one class from the rest. The final class label is determined based on the votes or decisions from these binary classifiers.
+
+### Usage
+
+1. Data Preparation: Prepare the dataset with the feature matrix (X) and the target vector (y) with multiple class labels.
+
+2. Split Data: Divide the dataset into training and testing sets.
+
+3. Model Training: Fit the SVM multi-class classifier to the training data.
+
+4. Model Evaluation: Evaluate the model's performance using metrics like accuracy, precision, recall, and F1-score.
+
+5. Predictions: Use the trained model to make predictions on new data.
+
+## Kernel Trick
+
+SVM can efficiently handle non-linearly separable data by applying the kernel trick. Common kernels used are the Radial Basis Function (RBF) kernel, polynomial kernel, and sigmoid kernel.
+
+
+### 7. Logistic Regression
+![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/LogR.png)
+## Overview
+
+Logistic Regression estimates the probability that an instance belongs to a particular class. It models the relationship between the input features (X) and the binary target variable (y) using the logistic function, which outputs probabilities in the range (0, 1).
+
+### Usage
+
+1. Data Preparation: Prepare the dataset with the feature matrix (X) and the binary target vector (y).
+
+2. Split Data: Divide the dataset into training and testing sets.
+
+3. Model Training: Fit the logistic regression model to the training data.
+
+4. Model Evaluation: Evaluate the model's performance using metrics like accuracy, precision, recall, and F1-score.
+
+5. Predictions: Use the trained model to make predictions on new data.
+
+## Regularization
+
+Logistic Regression can be regularized to prevent overfitting. Common regularization techniques include L1 regularization (Lasso) and L2 regularization (Ridge).
+
+
+### 8. 9. Naive Bayes Classification
+![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/NB.png)
+## Overview
+
+Naive Bayes Classifier is based on Bayes' theorem and assumes that the features are conditionally independent given the class label. Despite its simplicity, Naive Bayes often performs surprisingly well in various real-world scenarios.
+
+### Usage
+
+1. Data Preparation: Prepare the dataset with the feature matrix (X) and the target vector (y).
+
+2. Split Data: Divide the dataset into training and testing sets.
+
+3. Model Training: Fit the Naive Bayes model to the training data.
+
+4. Model Evaluation: Evaluate the model's performance using metrics like accuracy, precision, recall, and F1-score.
+
+5. Predictions: Use the trained model to make predictions on new data.
+
+## Types of Naive Bayes Classifiers
+
+There are different types of Naive Bayes classifiers, including:
+- Gaussian Naive Bayes: Used for continuous or real-valued features.
+- Multinomial Naive Bayes: Used for discrete feature counts, often used in text classification.
+- Bernoulli Naive Bayes: Used for binary features, often used in text classification.
+
+
+### 10. 10. Forward Propagation Neural Network
 ![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/ML.jpg)
-Random Forest is an ensemble learning method that combines multiple decision trees to make more accurate predictions. It's used for tasks involving large datasets and high-dimensional feature spaces.
-
-![Random Forest](insert_image_url_here)
-
-### 5. K-Nearest Neighbors (KNN)
-KNN is a simple and intuitive classification algorithm. It assigns a class label to a data point based on the majority class labels of its K nearest neighbors in the feature space.
-
-![K-Nearest Neighbors](insert_image_url_here)
-
-### 6. Decision Trees
-Decision Trees are a widely used algorithm for classification and regression tasks. They partition the data into subsets based on the values of features, leading to a tree-like structure.
-
-![Decision Trees](insert_image_url_here)
-
-### 7. Naive Bayes Classifier
-Naive Bayes is a probabilistic classification algorithm based on Bayes' theorem. It's simple, efficient, and performs well in text classification and sentiment analysis tasks.
-
-![Naive Bayes Classifier](insert_image_url_here)
-
-### 8. Neural Networks (Deep Learning)
-Neural Networks are the foundation of Deep Learning. They consist of multiple layers of interconnected neurons and are used for complex tasks like image recognition, natural language processing, etc.
-
-![Neural Networks](insert_image_url_here)
-
-### 9. Principal Component Analysis (PCA)
-PCA is a dimensionality reduction technique used to transform high-dimensional data into a lower-dimensional space while preserving important information.
-
-![Principal Component Analysis](insert_image_url_here)
-
-### 10. K-Means Clustering
 K-Means is a popular clustering algorithm that partitions data into K clusters based on similarity. It's used for customer segmentation, image compression, and more.
 
 ![K-Means Clustering](insert_image_url_here)
