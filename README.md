@@ -56,7 +56,7 @@ The Candidate Elimination algorithm is a supervised learning method used for con
 6. Visualization (Optional): Optionally, visualize the decision tree.
 
 7. Predictions: Use the trained model to predict survival for new passengers.
-![Support Vector Machines](insert_image_url_here)
+
 
 ### 4. Simple & Multiple Linear Regression
 ![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/LR.png)
