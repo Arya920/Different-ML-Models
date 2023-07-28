@@ -3,6 +3,7 @@
 Welcome to my Machine Learning Models repository! This repository contains the implementation code and documentation for various Machine Learning models and techniques that I have developed during my learning journey at VIT AP 
 
 ![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/ML.jpg)
+
 ## Overview
 
 In this repository, you'll find a collection of 10 different Machine Learning models. Each model is implemented in Python and comes with detailed documentation to help you understand the underlying concepts and methodologies.
@@ -15,35 +16,50 @@ Number of Pull Requests: 0 (as of [current_date])
 
 Here is a list of the Machine Learning models and their respective file names available in this repository:
 
-1. Linear Regression
-2. Logistic Regression
-3. Support Vector Machines (SVM)
-4. Random Forest
+1. Find S Algorithm
+2. Candidate Elimination Method
+3. Decision Tree Classifier on Titanic DataSet
+4. Simple & Multiple Linear Regression
 5. K-Nearest Neighbors (KNN)
-6. Decision Trees
-7. Naive Bayes Classifier
-8. Neural Networks (Deep Learning)
-9. Principal Component Analysis (PCA)
-10. K-Means Clustering
+6. Support Vector Machine
+7. S.V.M Multi Class Classifier
+8. Logistic Regression
+9. Naive Bayes Classification
+10. Forward Propagation Neural Network
+11. Random Forest  Vs Decision Tree 
 
 ## Model Descriptions
 
-### 1. Linear Regression
-Linear Regression is a simple and widely used regression algorithm. It aims to establish a linear relationship between the input features and the target variable. It's commonly used for tasks like predicting house prices, sales forecasts, etc.
+### 1. Find S Algorithm
+![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/Find%20S%20algo.jpg)
+The Find-S algorithm is a supervised learning algorithm used to find the most specific hypothesis that fits positive training examples. It generalizes the hypothesis by updating attribute-value pairs based on positive instances. It's suitable for simple concepts with binary-valued attributes.
 
-![Linear Regression](insert_image_url_here)
 
-### 2. Logistic Regression
-Logistic Regression is a classification algorithm used when the target variable is binary. It estimates the probability that an instance belongs to a particular class. It's widely used in spam detection, disease prediction, etc.
+### 2. Candidate Elimination Method
+![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/CandidateElimnation.JPG)
+The Candidate Elimination algorithm is a supervised learning method used for concept learning. It maintains two sets of hypotheses (most general and most specific) and iteratively refines them based on observed training examples to find the concept that fits the data. It can handle both positive and negative examples and is useful for learning complex concepts and handling noisy data.
 
-![Logistic Regression](insert_image_url_here)
 
-### 3. Support Vector Machines (SVM)
-SVM is a powerful algorithm used for both classification and regression tasks. It finds the best hyperplane that separates different classes in the data.
 
+### 3. Decision Tree Classifier on Titanic DataSet
+![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/DT.png)
+1. Data Preprocessing: Handle missing values, convert categorical variables to numerical form.
+
+2. Feature Selection: Choose relevant features.
+
+3. Split Data: Divide the dataset into training and testing sets.
+
+4. Build Decision Tree: Create and train the Decision Tree Classifier.
+
+5. Model Evaluation: Assess the model's performance using metrics like accuracy, precision, recall, and F1-score.
+
+6. Visualization (Optional): Optionally, visualize the decision tree.
+
+7. Predictions: Use the trained model to predict survival for new passengers.
 ![Support Vector Machines](insert_image_url_here)
 
-### 4. Random Forest
+### 4. Simple & Multiple Linear Regression
+![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/ML.jpg)
 Random Forest is an ensemble learning method that combines multiple decision trees to make more accurate predictions. It's used for tasks involving large datasets and high-dimensional feature spaces.
 
 ![Random Forest](insert_image_url_here)
