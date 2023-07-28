@@ -2,7 +2,7 @@
 
 Welcome to my Machine Learning Models repository! This repository contains the implementation code and documentation for various Machine Learning models and techniques that I have developed during my learning journey at VIT AP 
 
-<img align="center" alt="Coding" width="400" src="https://www.google.com/search?q=machine+learning&tbm=isch&ved=2ahUKEwj0w6TVpLGAAxXt_zgGHUvFBGEQ2-cCegQIABAA&oq&gs_lcp=CgNpbWcQARgDMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnOgQIIxAnUK0GWJ0OYJgdaAFwAHgDgAF6iAGEDZIBBDEwLjeYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCsABAQ&sclient=img&ei=4aTDZLTPO-3_4-EPy4qTiAY&bih=573&biw=1280#imgrc=8OukywakkwfAgM" >
+<img align="center" alt="Machine Learning" width="400" src="https://www.google.com/search?q=machine+learning&tbm=isch&ved=2ahUKEwj0w6TVpLGAAxXt_zgGHUvFBGEQ2-cCegQIABAA&oq&gs_lcp=CgNpbWcQARgDMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnOgQIIxAnUK0GWJ0OYJgdaAFwAHgDgAF6iAGEDZIBBDEwLjeYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCsABAQ&sclient=img&ei=4aTDZLTPO-3_4-EPy4qTiAY&bih=573&biw=1280#imgrc=8OukywakkwfAgM" >
 
 ## Overview
 
