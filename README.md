@@ -190,11 +190,78 @@ There are different types of Naive Bayes classifiers, including:
 - Bernoulli Naive Bayes: Used for binary features, often used in text classification.
 
 
-### 10. 10. Forward Propagation Neural Network
-![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/ML.jpg)
-K-Means is a popular clustering algorithm that partitions data into K clusters based on similarity. It's used for customer segmentation, image compression, and more.
+### 10. Forward Propagation Neural Network
+![ML](https://github.com/Arya920/Different-ML-Models/blob/master/12.%20Images/FP.png)
+## Overview
 
-![K-Means Clustering](insert_image_url_here)
+A Neural Network consists of layers of interconnected neurons, each performing a weighted sum of its inputs, followed by an activation function. Forward Propagation is the process of passing input data through the network to obtain predictions.
+
+### Usage
+
+1. Data Preparation: Prepare the dataset with the feature matrix (X) and the target vector (y).
+
+2. Split Data: Divide the dataset into training and testing sets.
+
+3. Model Architecture: Define the number of layers, number of neurons in each layer, and activation functions.
+
+4. Model Training: Implement the Forward Propagation algorithm and train the network on the training data.
+
+5. Model Evaluation: Evaluate the model's performance using metrics like accuracy, precision, recall, and F1-score.
+
+6. Predictions: Use the trained model to make predictions on new data.
+
+## Activation Functions
+
+Activation functions introduce non-linearity to the network and play a crucial role in its learning. Common activation functions include Sigmoid, ReLU, Tanh, and Softmax (for multi-class classification).
+
+### 11. 11. Random Forest Vs Decision Tree
+
+## Decision Tree
+
+### Overview
+
+Decision Tree is a simple and interpretable algorithm that recursively splits the data based on the most informative feature to create a tree-like structure. Each internal node represents a decision based on a feature, and each leaf node represents a class label or a regression value.
+
+### Advantages
+
+- Easy to understand and interpret due to the tree-like structure.
+- Handles both categorical and numerical data.
+- Requires minimal data preprocessing.
+
+### Limitations
+
+- Prone to overfitting, especially on complex datasets.
+- Sensitive to small variations in the data.
+
+## Random Forest
+
+### Overview
+
+Random Forest is an ensemble learning technique that builds multiple Decision Trees and combines their predictions to make more accurate and robust predictions. It randomly selects a subset of features and data samples for each tree, ensuring diversity among the trees.
+
+### Advantages
+
+- Reduces overfitting by combining predictions from multiple trees.
+- More accurate and stable compared to individual Decision Trees.
+- Handles high-dimensional data well.
+
+### Limitations
+
+- Less interpretable than individual Decision Trees.
+- Slightly more computationally expensive due to multiple trees.
+
+## Usage
+
+1. Data Preparation: Prepare the dataset with the feature matrix (X) and the target vector (y).
+
+2. Split Data: Divide the dataset into training and testing sets.
+
+3. Model Training: Implement the Decision Tree and Random Forest algorithms and train them on the training data.
+
+4. Model Evaluation: Evaluate the models' performances using metrics like accuracy, precision, recall, and F1-score.
+
+5. Predictions: Use the trained models to make predictions on new data.
+
 
 ## Contribution
 
@@ -202,6 +269,6 @@ Feel free to contribute to this repository by submitting pull requests. Your fee
 
 Thank you for visiting this repository and exploring the different Machine Learning models. Happy learning!
 
-[Your Name]
-[Your Contact Information]
-[Your GitHub Repository URL]
+[Arya Chakraborty]
+[linkedin.com/in/arya-chakraborty2002]
+[aryachakraborty.official@gmail.com]
